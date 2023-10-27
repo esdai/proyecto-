@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sprint 2</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="carrusel.css">
+        <link rel="stylesheet" href="cuerpo.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <header class="encabezado">
+            <nav class="barra">
+                <a href="" class="logo">Safiro</a>
+                <ul class="menu">
+                    <li class="menuItem eleccion">
+                        <a href="" class="menuLinks">categorias</a>
+                    </li>
+                    <li class="menuItem eleccion">
+                        <a href="" class="menuLinks">buscador</a>
+                    </li>
+                    <li class="menuItem eleccion">
+                        <a href="" class="menuLinks">login</a>
+                    </li>
+                    <li class="menuItem eleccion">
+                        <a href="" class="menuLinks">carrito</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="contenedorCarrusel">
+
+            <div class="itemCarrusel" id="itemCarrusel-1">
+                <div class="tarjetas">
+                    <img src="imagenes para el proyecto/2.jpg" alt="principal" class="imCarrusel">
+                </div>
+    
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-3"><i>I</i></a>
+                    <a href="#itemCarrusel-2"><i>D</i></a>
+                    
+                </div>
+            </div>
+
+            <div class="itemCarrusel" id="itemCarrusel-2">
+                <div class="tarjetas">
+                    <img src="imagenes para el proyecto/5.jpg" alt="siguiente" class="imCarrusel">
+                </div>
+    
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-1"><i>I</i></a>
+                    <a href="#itemCarrusel-3"><i>D</i></a>
+                </div>
+            </div>
+
+            <div class="itemCarrusel" id="itemCarrusel-3">
+                <div class="tarjetas">
+                    <img src="imagenes para el proyecto/1.jpg" alt="anterior" class="imCarrusel">
+                </div>
+    
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-2"><i>I</i></a>
+                    <a href="#itemCarrusel-1"><i>D</i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="contenedorPuntos">
+            <a href="#itemCarrusel-1">*</a>
+            <a href="#itemCarrusel-2">*</a>
+            <a href="#itemCarrusel-3">*</a>
+
+        </div>
+
+        <div id="contenedorGaleria">
+            <div class="tituloGaleria">
+                <h2>Productos destacados</h2>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="galeria/jeans.jpg" class="card-img-top" alt="jeans">
+                <div class="card-body">
+                  <h5 class="card-title">Jeans</h5>
+                  <p class="card-text">5000$ con 10% descuento</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="galeria/bolso 2.jpg" class="card-img-top" alt="bolso">
+                <div class="card-body">
+                  <h5 class="card-title">Bolso</h5>
+                  <p class="card-text">5000$ con 10% descuento</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="galeria/botas.jpg" class="card-img-top" alt="botas">
+                <div class="card-body">
+                  <h5 class="card-title">Botas</h5>
+                  <p class="card-text">5000$ con 10% descuento</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="galeria/completo.jpg" class="card-img-top" alt="complete">
+                <div class="card-body">
+                  <h5 class="card-title">Overol</h5>
+                  <p class="card-text">5000$ con 10% descuento</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="galeria/bolso rojo.jpg" class="card-img-top" alt="bolso2">
+                <div class="card-body">
+                  <h5 class="card-title">Bolso rojo</h5>
+                  <p class="card-text">5000$ con 10% descuento</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="galeria/ropa.jpg" class="card-img-top" alt="ropa">
+                <div class="card-body">
+                  <h5 class="card-title">Mono</h5>
+                  <p class="card-text">5000$ con 10% descuento</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+
+</html>

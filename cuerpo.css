@@ -1,0 +1,21 @@
+#contenedorGaleria{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    background-color: rgb(216, 254, 210);
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.card{
+   margin: 20px 0;
+}
+
+.tituloGaleria{
+    background-color: rgb(255, 176, 237);
+    grid-column: 1/4;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
