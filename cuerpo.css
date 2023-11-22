@@ -1,8 +1,9 @@
 #contenedorGaleria{
-    width: 75%;
+    float: left;
+    width: 70%;
     display: grid;
     grid-template-columns: 25% 25% 25%;
-    background-color: rgb(216, 254, 210);
+    background-color: rgb(188, 253, 114);
     justify-content: space-around;
     overflow: hidden;
 }
@@ -15,7 +16,91 @@
     background-color: rgb(255, 176, 237);
     grid-column: 1/4;
     text-align: center;
-    margin-top: 20px;
+    padding: 5px;
+    margin-top: 25px;
     margin-bottom: 5px;
+}
+
+/* aca empieza el aside */
+aside{
+    background-color: rgb(181, 234, 255);
+    width: 28%;
+    float: right;
+    height: 800px;
+}
+
+.consultas{
+    background-color: aliceblue;
+    margin: 25px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* seccion de form */
+form{
+    display: flex;
+    background-color: rgb(255, 176, 237);
+    margin: 25px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+label{
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+input, textarea{
+    border-radius: 5px;
+    border-color: rgb(93, 253, 85);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* aca empieza el footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    position: static;
+    margin-top: 15px;
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    bottom: 0%;
+    padding-top: 20px;
+}
+
+.fot{
+    margin: 10px;
+    color: rgb(221, 221, 221);
+    font-size: 15px;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+/* mediaquery */
+@media(max-width: 750px){
+    form{
+        background-color: rgb(0, 200, 255);
+    }
+    
+    #contenedorCarrusel{
+        background-color: rgb(110, 110, 248);
+    }
+    .encabezado{
+        background-color: rgb(90, 41, 253);
+    }
+    .buscar{
+        background-color: rgb(90, 41, 253);
+    }
+    #contenedorGaleria{
+        background-color: rgb(110, 110, 248);
+    }
 
 }
+
